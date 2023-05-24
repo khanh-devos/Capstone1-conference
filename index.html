@@ -6,30 +6,133 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link rel="stylesheet" href="index.css">
+    <link media="screen and (min-width: 768px)"
+    rel="stylesheet" type="text/css" href="desktop.css" >
+
+    <script src="./js/bootstrap.bundle.js"></script>
+
     <script src="js/index.js"></script>
+
+    <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css?family=Lato|Linter">
 
     <title>Capstone 1</title>
 </head>
-<body class="container-fluid p-3 border border-2 border-danger">
-  <header class="row row-cols-2">
-    <div class="col"></div>
-    <div class="col">
+<body class="border-check pb-1">
+    
+  <header class="w-100" id="header">
+    
+    <nav class="navbar navbar-expand-md">
+      <div class="w-100 d-md-flex" id="menu">
+
+        <div class="pt-1 d-flex flex-row justify-content-between">
+          <button id="header-btn" class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <a class="navbar-logo w-100 text-center" href="#">
+            <img class="me-sm-5" width="150" src="./imgs/electric-battery-logo.png" alt="Logo">
+          </a>
+        </div>
+
+        <div class="collapse navbar-collapse justify-content-end" id="collapsibleNavbar">
+            <ul class="navbar-nav d-flex justify-content-between">
+              <li class="nav-item text-center pe-sm-3">
+                <a class="nav-link" href="">About</a>
+              </li>
+              <li class="nav-item text-center pe-sm-3">
+                <a class="nav-link" href="#">Program</a>
+              </li>
+              <li class="nav-item text-center pe-sm-3">
+                <a class="nav-link" href="#">Join</a>
+              </li>
+              <li class="nav-item text-center pe-sm-3">
+                <a class="nav-link" href="#">Sponsor</a>
+              </li>
+              <li class="nav-item text-center pe-sm-3 d-sm-block d-md-none d-lg-block">
+                <a class="nav-link" href="#">News</a>
+              </li>
+
+              <div class="collapse navbar-collapse justify-content-end" id="CC-conference-btn-container" >
+                <button type="button" class="text-center border border-4 border-danger p-1 ps-2 pe-2 text-danger ">CC Campaign</button>
+              </div>
+            </ul>
+            
+        </div>
+
         
-    </div>
+      </div>
+    </nav>
+
   </header>
     
   <main>
-    <section>
-      Home
+    <section id="headline" class="w-100 position-relative pb-3">
+      <img width="100%" height="500px" src="./imgs/EU23-home-conference.jpg" alt="home image"
+      class="col"
+      >
+      <div id="home-content" class="position-absolute top-0 h-100 d-flex flex-column justify-content-center">
+        <h3 class="text-white">
+          EU Largest Tech Conference:
+        </h3>
+        <h1 id="conference-title" class="text-white">
+          Advanced Battery and Electric vehicle </h1>
+        <p class="text-white">Delivering insight into key business and technical challenges.</p>
+        <h2 class="text-white">
+          28th & 29th June 2023<br>
+          <small class="text-white">Hall 3, NEC, Birmingham, UK</small>
+        </h2>
+      </div>
+
+    </section>
+    
+    <section id="main-program" 
+    class="w-100 text-center">
+      <h2 class="text-white">Main Progarm</h2>
+      <div class="line"></div>
+            
+      <div id="main-container" class="row g-2 row-cols-1 row-cols-md-2 row-cols-lg-3 row-cols-xl-5"></div>
+
+      <a class="" href="">See the whole progarm</a>
+      
+      <div class="w-100 ps-4 pe-4">
+        <button type="button" class="w-100 text-center p-3 bg-danger text-white">Join The Conference</button>
+      </div>
+
     </section>
 
-    <section>
-      About
+    <section id="featured-container" 
+    class="w-100">
+      <h2>Featured Speakers</h2>
+      <div class="line"></div>
+
+      <div id="featured-speakers"
+      class="row g-2 row-cols-1 row-cols-md-2"
+      ></div>
+
     </section>
 
-    <section>
-      Test
+    <section id="social" class="w-100 p-3 bg-dark">
+      <h2>Partner</h2>
+      <div class="line"></div>
+      
+      <div>
+        <a href=""><img width="150px" src="./imgs/socials/mozilla.svg" alt=""></a>
+        <a href=""><img width="150px" src="./imgs/socials/googlekorea.svg" alt=""></a>
+        <a href=""><img width="150px" src="./imgs/socials/naver.svg" alt=""></a>
+        <a href=""><img width="150px" src="./imgs/socials/daumkakaologo.svg" alt=""></a>
+        <a href=""><img width="150px" src="./imgs/socials/airbnb.svg" alt=""></a>
+      </div>
+
     </section>
+
+    <section id="contact" class="w-100 text-center">
+      <a href="#">
+        <span> <img src="./imgs/BatteryTech.png" alt="contact">
+        </span>
+        </a> 
+    </section>
+
   </main>
 </body>
 </html>
