@@ -2,3 +2,15 @@ node_modules/
 package-lock.json
 package.json
 pseudo-code.txt
+
+index.scss
+index.css.map
+desktop.scss
+desktop.css.map
+
+about.scss
+about.css.map
+about_desktop.scss
+about_desktop.css.map
+
+.github/
