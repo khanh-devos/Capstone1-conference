@@ -10,9 +10,11 @@
   background: url(./imgs/features/bg.jpg) bottom left no-repeat;
   background-size: 100px 100px;
 }
+
 #headline #img1 {
   display: block;
 }
+
 #headline #img2 {
   display: none;
 }
@@ -20,15 +22,19 @@
 #home-content {
   padding: 50px 100px;
 }
+
 #home-content h1 {
   font-size: 40px;
 }
+
 #home-content h3 {
   font-size: 30px;
 }
+
 #home-content p {
   font-size: 20px;
 }
+
 #home-content h2 {
   font-size: 25px;
 }
@@ -36,26 +42,32 @@
 #main-program {
   padding: 70px 100px;
 }
+
 #main-program #main-container #main-window {
   padding: 30px 20px;
 }
+
 #main-program #main-container #main-window #main-img-container {
   height: auto;
 }
+
 #main-program #main-container #main-window h3 {
   color: #ee3d24;
   margin: 0 2px;
   font-size: 24px;
 }
+
 #main-program #main-container #main-window p {
   font-size: 15px;
   text-align: center;
   max-width: 100%;
 }
+
 #main-program #anchor {
   display: block;
   text-transform: uppercase;
 }
+
 #main-program div button {
   display: none;
 }
@@ -63,15 +75,20 @@
 #featured-container {
   padding: 50px 100px;
 }
+
 #featured-container h2 {
   font-size: 20px;
 }
+
 #featured-container .feature-window #fea-h3 {
   font-size: 20px;
 }
-#featured-container .feature-window #fea-p1, #featured-container .feature-window #fea-p2 {
+
+#featured-container .feature-window #fea-p1,
+#featured-container .feature-window #fea-p2 {
   font-size: 16px;
 }
+
 #featured-container .feature-window .feature-bg {
   background: url(./imgs/features/bg.jpg) left top no-repeat;
   background-size: 60px 60px;
@@ -82,6 +99,7 @@
 #social {
   padding: 50px 100px;
 }
+
 #social div #soc-a img {
   width: 180px;
 }
@@ -89,6 +107,7 @@
 #contact {
   padding: 30px 100px;
 }
+
 #contact a {
   margin-left: -5%;
-}/*# sourceMappingURL=desktop1.css.map */
+}

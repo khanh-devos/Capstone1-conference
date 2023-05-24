@@ -16,6 +16,7 @@
   background: url(./imgs/icons/IconMenu.svg) center center no-repeat;
   background-size: 20px 20px;
 }
+
 #header-btn .addX {
   background: url(./imgs/icons/x.svg) center center no-repeat;
   background-size: 20px 20px;
@@ -25,6 +26,7 @@
   padding: 0 15px;
   background: #3e3e3e;
 }
+
 #top-bar * {
   font-size: 14px;
 }
@@ -32,18 +34,22 @@
 #header {
   padding: 5px 15px;
 }
+
 #header .nav-item {
   border-bottom: 2px solid transparent;
   border-radius: 2%;
 }
+
 #header .nav-item:hover {
   background: #4eb741;
   border-bottom: 2px solid #4eb741;
   font-weight: bold;
 }
+
 #header .nav-item:hover a:active {
   color: #ee3d24;
 }
+
 #header #CC-conference-btn-container {
   width: 200px;
 }
@@ -52,15 +58,19 @@
   background: url(./imgs/features/bg.jpg) bottom right no-repeat;
   background-size: 100px 100px;
 }
+
 #headline #img1 {
   display: none;
 }
+
 #headline #img2 {
   display: block;
 }
+
 #headline #home-content {
   padding: 30px 15px;
 }
+
 #headline #home-content h1 {
   background: url(./imgs/bluesky.jpg) center/cover;
   color: transparent;
@@ -70,6 +80,7 @@
   font-weight: 900;
   text-transform: uppercase;
 }
+
 #headline #home-content #home-content-h3 {
   background: url(./imgs/bluesky.jpg) center/cover;
   -webkit-text-fill-color: transparent;
@@ -78,9 +89,11 @@
   font-size: 22px;
   font-weight: bold;
 }
+
 #headline #home-content p {
   font-size: 14px;
 }
+
 #headline #home-content h4 {
   font-size: 20px;
   font-weight: bold;
@@ -91,43 +104,53 @@
   padding-bottom: 30px;
   background: #272a31;
 }
+
 #main-program .line {
   border: 1px dashed #ee3d24;
   width: 70px;
   margin: 20px auto;
   margin-bottom: 40px;
 }
+
 #main-program * {
   color: #fff;
 }
+
 #main-program h2 {
   font-size: 25px;
 }
+
 #main-program #main-container {
   margin: 40px 0;
 }
+
 #main-program #main-container #main-window {
   overflow: auto;
   padding: 20px 20px;
   background: #3d4045;
 }
+
 #main-program #main-container #main-window #main-img-container {
   height: auto;
 }
+
 #main-program #main-container #main-window h3 {
   color: #ee3d24;
   font-size: 16px;
   margin: 0 2px;
 }
+
 #main-program #main-container #main-window p {
   font-size: 14px;
   text-align: left;
   max-width: 55%;
 }
+
 #main-program #anchor {
   display: none;
   text-transform: uppercase;
 }
+
 #main-program div button {
   display: block;
 }
@@ -137,21 +160,27 @@
   padding: 50px 15px;
   padding-bottom: 80px;
 }
+
 #featured-container .line {
   border: 1px dashed #ee3d24;
   width: 70px;
   margin: 20px auto;
   margin-bottom: 40px;
 }
+
 #featured-container h2 {
   font-size: 20px;
 }
+
 #featured-container .feature-window #fea-h3 {
   font-size: 15px;
 }
-#featured-container .feature-window #fea-p1, #featured-container .feature-window #fea-p2 {
+
+#featured-container .feature-window #fea-p1,
+#featured-container .feature-window #fea-p2 {
   font-size: 14px;
 }
+
 #featured-container .feature-window .feature-bg {
   background: url(./imgs/features/bg.jpg) left top no-repeat;
   background-size: 60px 60px;
@@ -164,20 +193,24 @@
   padding: 30px 15px;
   text-align: center;
 }
+
 #social .line {
   border: 1px dashed #ee3d24;
   width: 70px;
   margin: 20px auto;
   margin-bottom: 40px;
 }
+
 #social h2 {
-  color: #8F8F91;
+  color: #8f8f91;
   font-size: 30px;
   font-weight: 400;
 }
+
 #social div #soc-a {
   padding: 10px 10px;
 }
+
 #social div #soc-a img {
   width: 90px;
 }
@@ -185,14 +218,17 @@
 #contact {
   padding: 30px 15px;
 }
+
 #contact #con-a {
   display: flex;
   background-color: #4eb741;
 }
+
 #contact #con-a span {
   flex: 1;
 }
+
 #contact #con-a span img {
   min-width: 100%;
   max-width: 100%;
-}/*# sourceMappingURL=index1.css.map */
+}
