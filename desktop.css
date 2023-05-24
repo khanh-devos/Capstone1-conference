@@ -10,6 +10,12 @@
   background: url(./imgs/features/bg.jpg) bottom left no-repeat;
   background-size: 100px 100px;
 }
+#headline #img1 {
+  display: block;
+}
+#headline #img2 {
+  display: none;
+}
 
 #home-content {
   padding: 50px 100px;

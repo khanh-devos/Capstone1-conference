@@ -11,6 +11,12 @@ $mobile-pading-x: 100px;
 #headline {
   background: url(./imgs/features/bg.jpg) bottom left no-repeat;
   background-size: 100px 100px;
+  #img1 {
+    display: block;
+  }
+  #img2 {
+    display: none;
+  }
 }
 
 #home-content {
