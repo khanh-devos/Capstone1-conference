@@ -1,5 +1,4 @@
-
-programs = [
+const programs = [
   {
     id: 0,
     title: 'Lecture',
@@ -29,10 +28,10 @@ programs = [
     title: 'CC Ignite',
     icon: './imgs/icons/program_icon_05.svg',
     detail: 'Explore the latest products and solutions at the largest EV technology expo in Europe.',
-  }
-]
+  },
+];
 
-speakers = [
+const speakers = [
   {
     id: 0,
     name: 'ANDY LEACH',
@@ -74,15 +73,12 @@ speakers = [
     img: './imgs/features/feature6.png',
     background: 'Energy Storage Team, BloombergNEF',
     detail: 'He studies commons-based peer production, and published his seminal book, The Wealth of Networks in 2006',
-  }
-]
-
+  },
+];
 
 const showProgram = () => {
   const container = document.querySelector('#main-container');
-  const cards = programs.map(item => {
-
-    return `<div id="main-window" 
+  const cards = programs.map((item) => `<div id="main-window" 
     class="col text-white d-flex flex-md-column
     align-items-center justify-content-between">
       <div id="main-img-container flex-1">
@@ -90,42 +86,37 @@ const showProgram = () => {
       </div>
       <h3 >${item.title}</h3>
       <p class="mt-3">Explore the latest products and solutions at the largest EV technology expo in Europe.</p>
-    </div>`
-   })
-    container.innerHTML = cards.join("");  
-}
+    </div>`);
+  container.innerHTML = cards.join('');
+};
 
 const showMoreBtn = () => {
   const container = document.querySelector('#featured-speakers');
 
-  container.childNodes.forEach( (item, i) => {
-    if(i > 3 && item.tagName === 'SECTION') {
-      if(item.classList) {
-        console.log(item.tagName, item.classList)
+  container.childNodes.forEach((item, i) => {
+    if (i > 3 && item.tagName === 'SECTION') {
+      if (item.classList) {
         item.classList.toggle('d-none');
       }
     }
 
-    if(item.tagName === 'BUTTON') {
-      if (item.innerHTML.includes("Less")) {
-        
+    if (item.tagName === 'BUTTON') {
+      if (item.innerHTML.includes('Less')) {
         item.innerHTML = `More <img width="10" 
-        src="./imgs/arrow_down.svg" alt="arrow">`
-      }
-      else {
+        src="./imgs/arrow_down.svg" alt="arrow">`;
+      } else {
         item.innerHTML = `Less <img width="10"
         style="rotate: 180deg" 
-        src="./imgs/arrow_down.svg" alt="arrow">`
+        src="./imgs/arrow_down.svg" alt="arrow">`;
       }
     }
-  })
-}
+  });
+};
 
 const showFeature = () => {
   const container = document.querySelector('#featured-speakers');
 
-  const cards = speakers.map((item, i) => {
-    return `
+  const cards = speakers.map((item, i) => `
     <section class="${i > 1 ? 'd-none' : ''} d-lg-block">
       <div class="rol text-white 
       d-flex flex-row feature-window">
@@ -133,34 +124,33 @@ const showFeature = () => {
         <img width="100px" src="${item.img}" alt="main program icon">
       </div>
       <div class="ms-1 mt-2 text-start">
-        <h3 class="m-0 p-0">${item.name}</h3>
-        <p class="text-danger m-0 p-0 mb-1">${item.background}</p>
-        <p>${item.detail}</p>
+        <h3 id="fea-h3" class="m-0 p-0">${item.name}</h3>
+        <p id="fea-p1" class="text-danger m-0 p-0 mb-1">${item.background}</p>
+        <p id="fea-p2">${item.detail}</p>
         </div>
       </div>
-    </section>`
-  })
+    </section>`);
 
   const button = `<button 
   class="d-md-none shadow pt-1 pb-1 rounded border border-0"
   onclick="showMoreBtn()" id="More-btn" >More 
   <img width="10" src="./imgs/arrow_down.svg" alt="arrow">
-  </button>`
-  
-  container.innerHTML = cards.join("") + button;  
+  </button>`;
 
-}
+  container.innerHTML = cards.join('') + button;
+};
 
 const toggleMenuBtn = () => {
-  const btn = document.querySelector('#header-btn');
   const span = document.querySelector('#header-btn span');
-  span.classList.toggle('changeImage');
-}
+  span.classList.toggle('addX');
+};
 
 window.onload = () => {
   showProgram();
   showFeature();
 
   // change image at menuButton
-  document.querySelector('#header-btn').addEventListener('click', toggleMenuBtn)
-}
+  document.querySelector('#header-btn').addEventListener('click', toggleMenuBtn);
+};
+
+showMoreBtn();

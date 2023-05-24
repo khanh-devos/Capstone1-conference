@@ -5,11 +5,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="stylesheet" href="about.css">
+    <link rel="stylesheet" href="about1.css">
     <link media="screen and (min-width: 768px)"
-    rel="stylesheet" type="text/css" href="about_desktop.css" >
+    rel="stylesheet" type="text/css" href="about_desktop1.css" >
 
-    <script src="./js/bootstrap.bundle.js"></script>
+    <script src="js/about.js"></script>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
 
     <link rel="stylesheet"
           href="https://fonts.googleapis.com/css?family=Lato|Linter">
@@ -36,9 +41,9 @@
     </div>
   </section>
 
-  <header class="w-100" id="header">
+  <header class="w-100 m-0" id="header">
 
-    <nav class="navbar navbar-expand-md">
+    <nav class="navbar navbar-expand-md p-0 m-0">
       <div class="w-100 d-md-flex" id="menu">
 
         <div class="pt-1 d-flex flex-row justify-content-between">
@@ -47,7 +52,7 @@
           </button>
 
           <a class="navbar-logo w-100 text-center" href="./index.html">
-            <img class="me-sm-5" width="180" height="50" src="./imgs/electric-battery-logo2.png" alt="Logo">
+            <img class="me-sm-5" width="150" height="50" src="./imgs/electric-battery-logo2.png" alt="Logo">
           </a>
         </div>
 
@@ -84,9 +89,9 @@
     
   <main>
     <section id="headline" class="w-100 position-relative">
-      <img id="img1" width="100%" height="500px" src="./imgs/about.jpg" alt="home image"
+      <img id="img1" width="100%" height="100%" src="./imgs/about.jpg" alt="home image"
       >
-      <img id="img2" width="100%" height="500px" src="./imgs/about2.jpg" alt="home image"
+      <img id="img2" width="100%" height="100%" src="./imgs/about2.jpg" alt="home image"
       >
       <div id="home-content" class="position-absolute top-0 h-100 d-flex flex-column justify-content-center align-items-center">
         <h3 class="text-white d-md-none">
@@ -106,7 +111,7 @@
         </p>    
         <p class="text-white text-center">Meet battery manufacturers, suppliers, engineers, thought leaders and decision-makers for a conference and battery tech expo focused on the latest developments in the advanced battery and automotive industries.</p>
 
-        <h2 class="text-white text-center">
+        <h2 id="head-h2" class="text-white text-center">
             Please contact us per Email for nay further questions<br>
         </h2>
             
@@ -123,11 +128,11 @@
     
     <section id="headline2" 
     class="w-100 text-center pt-5 pb-5">
-        <h2>Join Peers at the Advanced Battery and H/EV Technology Community</h2>
-        <div class="line"></div>
+        <h2 id="head2-h2">Join Peers at the Advanced Battery and H/EV Technology Community</h2>
+        <div id="head2-line"></div>
 
-        <p class="d-none d-lg-block m-0">Join more than 770+ suppliers to showcase products representing the entire supply chain. This is the only trade fair where you can connect with over 10,000+ attendees in 3 days.This is the only trade fair where you can connect with over 10,000+ attendees in 3 days.</p>
-        <p class="m-0 mb-5">Join more than 770+ suppliers to showcase products representing the entire supply chain. </p>
+        <p id="head2-p1" class="d-none d-lg-block m-0">Join more than 770+ suppliers to showcase products representing the entire supply chain. This is the only trade fair where you can connect with over 10,000+ attendees in 3 days.This is the only trade fair where you can connect with over 10,000+ attendees in 3 days.</p>
+        <p id="head2-p2" class="m-0 mb-5">Join more than 770+ suppliers to showcase products representing the entire supply chain. </p>
 
         <img width="80%" src="./imgs/electric-battery-logo2.png" alt="logo">  
 
@@ -138,8 +143,8 @@
     <section id="past-conference" 
     class="w-100 text-center">
       <h5><b>See the past Event Summits</b></h5>
-      <div class="line"></div>
-      <p>have a look at EU's most important event in batteries and EV tech industries.</p>
+      <div id="past-line"></div>
+      <p id="past-p" >have a look at EU's most important event in batteries and EV tech industries.</p>
 
       <div id="video-container" class="row row-cols-1 row-cols-md-2 justify-content-between">
         <div class="col">
@@ -155,26 +160,26 @@
     </section>
 
     <section id="social" class="w-100 bg-dark d-md-none">
-      <h2>Partner</h2>
-      <div class="line"></div>
+      <h2 id="soc-h2">Partner</h2>
+      <div id="soc-line"></div>
       
       <div class="d-flex flex-row flex-wrap justify-content-evenly">
-        <a href="">
+        <a id="soc-a" href="">
           <span><img width="90px" src="./imgs/socials/mozilla.svg" alt=""></span></a>
-        <a href="">
+        <a id="soc-a" href="">
           <span><img width="90px" src="./imgs/socials/googlekorea.svg" alt=""></span></a>
-        <a href="">
+        <a id="soc-a" href="">
           <span><img width="90px" src="./imgs/socials/naver.svg" alt=""></span></a>
-        <a href="">
+        <a id="soc-a" href="">
           <span><img width="90px" src="./imgs/socials/daumkakaologo.svg" alt=""></span></a>
-        <a href="">
+        <a id="soc-a" href="">
           <span><img width="90px" src="./imgs/socials/airbnb.svg" alt=""></span></a>
       </div>
 
     </section>
 
     <section id="contact" class="w-100 text-center">
-      <a href="#">
+      <a id="con-a" href="#">
         <span> <img src="./imgs/BatteryTech.png" alt="contact">
         </span>
         </a> 

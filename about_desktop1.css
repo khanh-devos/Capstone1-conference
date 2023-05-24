@@ -8,30 +8,36 @@
 
 #headline {
   background-size: 100px 100px;
-  padding: 50px 0;
 }
+
 #headline #img1 {
   display: block;
 }
+
 #headline #img2 {
   display: none;
 }
+
 #headline #home-content {
   padding: 50px 100px;
 }
+
 #headline #home-content h1 {
   font-size: 40px;
 }
-#headline #home-content h2 {
+
+#headline #home-content #head-h2 {
   font-size: 16px;
 }
 
 #headline2 {
   padding: 50px 100px;
 }
+
 #headline2 h2 {
   font-size: 30px;
 }
+
 #headline2 img {
   width: 40%;
 }
@@ -39,6 +45,7 @@
 #past-conference {
   padding: 74px 100px;
 }
+
 #past-conference .line {
   border: 1px dashed #ee3d24;
   width: 50px;
@@ -46,9 +53,11 @@
   margin-bottom: 40px;
   margin-top: 20px;
 }
+
 #past-conference p {
   margin-top: 10px;
 }
+
 #past-conference #video-container div iframe {
   height: 300px;
 }
@@ -57,6 +66,7 @@
   background: #2e2e2e;
   padding: 30px 100px;
 }
+
 #contact a {
   margin-left: 0%;
-}/*# sourceMappingURL=about_desktop.css.map */
+}
