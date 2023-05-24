@@ -1,5 +1,9 @@
 $mobile-pading-x: 100px;
 
+#top-bar {
+  padding: 0 $mobile-pading-x;
+}
+
 #header {
   padding: 5px $mobile-pading-x;
 }
