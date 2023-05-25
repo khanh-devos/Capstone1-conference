@@ -1,0 +1,14 @@
+node_modules/
+package-lock.json
+package.json
+pseudo-code.txt
+
+index1.scss
+index1.css.map
+desktop1.scss
+desktop1.css.map
+
+about1.scss
+about1.css.map
+about_desktop1.scss
+about_desktop1.css.map

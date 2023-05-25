@@ -1,0 +1,110 @@
+#top-bar {
+  padding: 0 200px;
+}
+
+#header {
+  padding: 5px 200px;
+}
+
+#headline #img1 {
+  display: block;
+  height: 770px;
+}
+
+#headline #img2 {
+  display: none;
+  height: 770px;
+}
+
+#headline #home-content {
+  padding: 50px 200px;
+}
+
+#headline #home-content h1 {
+  font-size: 65px;
+}
+
+#headline #home-content h3 {
+  font-size: 35px;
+}
+
+#headline #home-content #home-p1 {
+  font-size: 25px;
+  margin: 70px 0;
+}
+
+#headline #home-content #home-h4 {
+  font-size: 42px;
+}
+
+#headline #home-content #home-p2 {
+  font-size: 27px;
+}
+
+#main-program {
+  padding: 70px 200px;
+}
+
+#main-program #main-container #main-window {
+  padding: 20px 20px;
+}
+
+#main-program #main-container #main-window #main-img-container {
+  height: auto;
+}
+
+#main-program #main-container #main-window #main-h3 {
+  color: #ee3d24;
+  margin: 0 2px;
+  font-size: 24px;
+}
+
+#main-program #main-container #main-window p {
+  text-align: center;
+  max-width: 100%;
+}
+
+#main-program #anchor {
+  display: block;
+  text-transform: uppercase;
+}
+
+#main-program div button {
+  display: none;
+}
+
+#featured-container {
+  padding: 40px 200px;
+}
+
+#featured-container h2 {
+  font-size: 20px;
+}
+
+#featured-container .feature-window #fea-h3 {
+  font-size: 20px;
+}
+
+#featured-container .feature-window #fea-p1,
+#featured-container .feature-window #fea-p2 {
+  font-size: 16px;
+}
+
+#featured-container .feature-window .feature-bg {
+  background: url(./imgs/features/bg.jpg) left top no-repeat;
+  background-size: 60px 60px;
+  padding: 10px 10px;
+  padding-right: 5px;
+}
+
+#social {
+  padding: 50px 200px;
+}
+
+#social div #soc-a img {
+  width: 150px;
+}
+
+#contact {
+  padding: 30px 200px;
+}

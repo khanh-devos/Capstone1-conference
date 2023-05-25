@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="index1.css">
+    <link media="screen and (min-width: 768px)"
+    rel="stylesheet" type="text/css" href="desktop1.css" >
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+    <script src="js/index.js"></script>
+
+    <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css?family=Lato|Linter">
+
+    <title>Home</title>
+</head>
+<body class="pb-1">
+  
+  <section id="top-bar" class="d-none d-lg-block">
+    <div class="d-flex flex-row justify-content-end align-content-center text-white">
+      <a href="" class="p-1 ps-2 pe-2">
+        <span>
+          <img width="10px" src="./imgs/socials/Rectangle.svg" alt="facebook icon">
+        </span>
+      </a>
+      <a href="" class="p-1 ps-2 pe-2">
+        <span>
+          <img width="15px" src="./imgs/socials/twitter.svg" alt="twitter icon">
+        </span>
+      </a>
+      <a href="" class="p-1 ps-2 pe-2 text-white text-decoration-none">English</a>
+      <a href="" class="p-1 ps-2 pe-2 text-white text-decoration-none">MyPage</a>
+      <button class="p-1 ps-2 pe-2 text-white border border-0 bg-transparent">Logout</button>
+    </div>
+  </section>
+
+  <header class="w-100 m-0" id="header">
+
+    <nav class="navbar navbar-expand-md m-0 p-0">
+      <div class="w-100 d-md-flex" id="menu">
+
+        <div class="pt-1 d-flex flex-row justify-content-between">
+          <button id="header-btn" class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <a class="navbar-logo w-100 text-center" href="./index.html">
+            <img class="me-sm-5" width="180" height="50" src="./imgs/electric-battery-logo.png" alt="Logo">
+          </a>
+        </div>
+
+        <div class="collapse navbar-collapse justify-content-end" id="collapsibleNavbar">
+            <ul class="navbar-nav d-flex justify-content-between">
+              <li class="nav-item text-center ps-sm-1 pe-sm-1">
+                <a class="nav-link header-a" href="./about.html">About</a>
+              </li>
+              <li class="nav-item text-center ps-sm-1 pe-sm-1">
+                <a class="nav-link header-a" href="#main-program">Program</a>
+              </li>
+              <li class="nav-item text-center ps-sm-1 pe-sm-1">
+                <a class="nav-link header-a" href="#">Join</a>
+              </li>
+              <li class="nav-item text-center ps-sm-1 pe-sm-1">
+                <a class="nav-link header-a" href="#">Sponsor</a>
+              </li>
+              <li class="nav-item text-center ps-sm-1 pe-sm-1 d-sm-block d-md-none d-lg-block">
+                <a class="nav-link header-a" href="#">News</a>
+              </li>
+
+              <div class="collapse navbar-collapse justify-content-end ms-1" id="CC-conference-btn-container" >
+                <button type="button" class="text-center border border-4 border-danger p-1 ps-2 pe-2 text-danger ">CC Campaign</button>
+              </div>
+            </ul>
+            
+        </div>
+
+        
+      </div>
+    </nav>
+
+  </header>
+    
+  <main>
+    <section id="headline" class="w-100 position-relative">
+      <img class="opacity-25" id="img1" width="100%" src="./imgs/home.jpg" alt="home image">
+      <img class="opacity-25" id="img2" width="100%" src="./imgs/home2.jpg" alt="home image">
+
+      <div id="home-content" class="position-absolute top-0 w-100 h-100 d-flex flex-column justify-content-center align-content-center">
+        <h3 id="home-content-h3" class="">
+          EU Largest Tech Conference:
+        </h3>
+        <h1 id="conference-title" class="">
+          Advanced Battery and Electric vehicle </h1>
+        <p id="home-p1">A joyful celebration believing in the value of openness and sharing, creating a positive change with people from over 80 countries.</p>
+        <h4 id="home-h4">
+          28th & 29th June 2023<br>
+        </h4>
+        <p id="home-p2">Hall 3, NEC, Birmingham, UK</p>
+      </div>
+
+    </section>
+    
+    <section id="main-program" 
+    class="w-100 text-center">
+      <h2 class="text-white">Main Progarm</h2>
+      <div class="line"></div>
+      
+      <div class="container-fluid d-block">
+        <div id="main-container" class="row row-cols-1 row-cols-md-2 row-cols-lg-3 row-cols-xl-5"></div>
+      </div>
+        
+      <a id="anchor" class="" href="">See the whole progarm</a>
+      
+      <div class="w-100 ps-4 pe-4">
+        <button type="button" class="w-100 text-center p-3 bg-danger text-white">Join The Conference</button>
+      </div>
+
+    </section>
+
+    <section id="featured-container" 
+    class="w-100">
+      <h2>Featured Speakers</h2>
+      <div id="fea-line"></div>
+
+      <div id="featured-speakers"
+      class="row g-2 row-cols-1 row-cols-md-2"
+      ></div>
+
+    </section>
+
+    <section id="social" class="w-100 bg-dark d-none d-md-block">
+      <h2>Partner</h2>
+      <div class="line"></div>
+      
+      <div class="d-flex flex-row flex-wrap justify-content-evenly">
+        <a id="soc-a" href="">
+          <span><img src="./imgs/socials/mozilla.svg" alt=""></span></a>
+        <a id="soc-a" href="">
+          <span><img  src="./imgs/socials/googlekorea.svg" alt=""></span></a>
+        <a id="soc-a" href="">
+          <span><img src="./imgs/socials/naver.svg" alt=""></span></a>
+        <a id="soc-a" href="">
+          <span><img src="./imgs/socials/daumkakaologo.svg" alt=""></span></a>
+        <a id="soc-a" href="">
+          <span><img src="./imgs/socials/airbnb.svg" alt=""></span></a>
+      </div>
+
+    </section>
+
+    <section id="contact" class="d-none d-md-block w-100 text-center">
+      <a id="con-a" href="#">
+        <span> <img src="./imgs/BatteryTech2.png" alt="contact">
+        </span>
+        </a> 
+    </section>
+
+  </main>
+</body>
+</html>
