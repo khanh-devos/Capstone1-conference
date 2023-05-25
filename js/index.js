@@ -84,7 +84,7 @@ const showProgram = () => {
       <div id="main-img-container flex-1">
         <img width="50" height="50" src="${item.icon}" alt="main program icon">
       </div>
-      <h3 >${item.title}</h3>
+      <h3 id="main-h3">${item.title}</h3>
       <p class="mt-3">Explore the latest products and solutions at the largest EV technology expo in Europe.</p>
     </div>`);
   container.innerHTML = cards.join('');

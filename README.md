@@ -65,7 +65,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://google.com)
+- [Live Demo Link](https://khanh-devos.github.io/Capstone1-conference/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -145,7 +145,7 @@ If you like this project, can invite me a cup of tea
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank Microverse and code reviewers
+I would like to thank Ms CINDY SHIN, designer of this beautiful template, and other devs who make contributions for this app.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

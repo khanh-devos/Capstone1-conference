@@ -33,7 +33,6 @@
 
 #header {
   padding: 5px 15px;
-  height: auto;
 }
 
 #header .nav-item {
@@ -51,20 +50,22 @@
   color: #ee3d24;
 }
 
+#header .nav-item .header-a {
+  color: #000;
+}
+
 #header #CC-conference-btn-container {
   width: 200px;
 }
 
-#headline {
-  background-size: 100px 100px;
-}
-
 #headline #img1 {
   display: none;
+  height: 550px;
 }
 
 #headline #img2 {
   display: block;
+  height: 550px;
 }
 
 #headline #home-content {
@@ -79,34 +80,31 @@
 }
 
 #headline #home-content h1 {
-  background: url(./imgs/bluesky.jpg) center/cover;
-  -webkit-text-fill-color: transparent;
-  color: transparent;
-  -webkit-background-clip: text;
   font-size: 30px;
-  font-weight: 900;
+  font-weight: bolder;
+  color: #ee3d24;
   text-transform: uppercase;
 }
 
 #headline #home-content h3 {
-  background: url(./imgs/bluesky.jpg) center/cover;
-  -webkit-text-fill-color: transparent;
-  color: transparent;
-  -webkit-background-clip: text;
   font-size: 22px;
-  font-weight: bold;
+  color: #ee3d24;
 }
 
-#headline #home-content p {
+#headline #home-content #head-mob-p {
   font-size: 14px;
+  color: #000;
 }
 
-#headline #home-content h2 {
-  font-size: 16px;
+#headline #home-content #head-h2 {
+  font-size: 13px;
+  color: #7a7a7a;
 }
 
-#headline #home-content a {
-  font-size: 17px;
+#headline #home-content #head-a {
+  font-size: 13px;
+  color: #5f5f5f;
+  text-decoration: none;
   font-weight: bold;
 }
 
@@ -143,17 +141,64 @@
   margin-top: 10px;
 }
 
-#past-conference #past-p {
-  margin-top: 20px;
-  margin-bottom: 35px;
+#past-conference #past-h2 {
+  font-size: 20px;
+  font-weight: bold;
 }
 
-#past-conference #video-container div iframe {
-  height: 200px;
-  margin-bottom: 25px;
+#past-conference #past-p {
+  font-size: 12px;
+  margin-top: -20px;
+  margin-bottom: 35px;
+  padding: 0 12px;
+}
+
+#past-conference #video-container #a1 {
+  margin-bottom: 20px;
+  width: 100%;
+  height: 230px;
+  background: url(./imgs/past-summit1.png) center center no-repeat;
+  background-size: 100% 100%;
+}
+
+#past-conference #video-container #a1 #a1-span {
+  background: #881c08;
+  opacity: 0.75;
+}
+
+#past-conference #video-container #a1 #a1-span #a1-sp-h5 {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+#past-conference #video-container #a1 #a1-span #a1-sp-p {
+  font-size: 17px;
+}
+
+#past-conference #video-container #a2 {
+  margin-bottom: 20px;
+  width: 100%;
+  height: 230px;
+  background: url(./imgs/past-summit2.png) center center no-repeat;
+  background-size: 100% 100%;
+}
+
+#past-conference #video-container #a2 #a2-span {
+  background: #881c08;
+  opacity: 0.75;
+}
+
+#past-conference #video-container #a2 #a2-span #a2-sp-h5 {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+#past-conference #video-container #a2 #a2-span #a2-sp-p {
+  font-size: 17px;
 }
 
 #social {
+  margin-top: 30px;
   background: #fff;
   padding: 30px 15px;
   text-align: center;
@@ -178,18 +223,4 @@
 
 #contact {
   padding: 30px 15px;
-}
-
-#contact #con-a {
-  display: flex;
-  background-color: #4eb741;
-}
-
-#contact #con-a span {
-  flex: 1;
-}
-
-#contact #con-a span img {
-  min-width: 100%;
-  max-width: 100%;
 }

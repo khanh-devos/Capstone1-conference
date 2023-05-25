@@ -50,53 +50,59 @@
   color: #ee3d24;
 }
 
+#header .nav-item .header-a {
+  color: #000;
+}
+
 #header #CC-conference-btn-container {
   width: 200px;
 }
 
-#headline {
-  background: url(./imgs/features/bg.jpg) bottom right no-repeat;
-  background-size: 100px 100px;
-}
-
 #headline #img1 {
   display: none;
+  height: 550px;
 }
 
 #headline #img2 {
   display: block;
+  height: 550px;
 }
 
 #headline #home-content {
-  padding: 30px 15px;
+  padding: 100px 15px;
+  padding-bottom: 70px;
 }
 
 #headline #home-content h1 {
-  background: url(./imgs/bluesky.jpg) center/cover;
+  background: url(./imgs/heroFill.jpeg) center/cover;
   color: transparent;
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
   font-size: 35px;
-  font-weight: 900;
+  font-weight: bolder;
   text-transform: uppercase;
 }
 
 #headline #home-content #home-content-h3 {
-  background: url(./imgs/bluesky.jpg) center/cover;
+  background: url(./imgs/heroFill.jpeg) center/cover;
   -webkit-text-fill-color: transparent;
   color: transparent;
   -webkit-background-clip: text;
-  font-size: 22px;
-  font-weight: bold;
+  font-size: 25px;
 }
 
-#headline #home-content p {
+#headline #home-content #home-p1 {
   font-size: 14px;
+  margin: 30px 0;
 }
 
-#headline #home-content h4 {
+#headline #home-content #home-h4 {
   font-size: 20px;
   font-weight: bold;
+}
+
+#headline #home-content #home-p2 {
+  font-size: 14px;
 }
 
 #main-program {
@@ -125,23 +131,23 @@
 }
 
 #main-program #main-container #main-window {
-  overflow: auto;
-  padding: 20px 20px;
+  border: 2px solid #272a31;
+  height: auto;
   background: #3d4045;
 }
 
-#main-program #main-container #main-window #main-img-container {
-  height: auto;
+#main-program #main-container #main-window:hover {
+  border: 2px solid #fff;
 }
 
-#main-program #main-container #main-window h3 {
+#main-program #main-container #main-window #main-h3 {
   color: #ee3d24;
-  font-size: 16px;
+  font-size: 15px;
   margin: 0 2px;
 }
 
 #main-program #main-container #main-window p {
-  font-size: 14px;
+  font-size: 12px;
   text-align: left;
   max-width: 55%;
 }
@@ -157,11 +163,10 @@
 
 #featured-container {
   text-align: center;
-  padding: 50px 15px;
-  padding-bottom: 80px;
+  padding: 40px 15px;
 }
 
-#featured-container .line {
+#featured-container #fea-line {
   border: 1px dashed #ee3d24;
   width: 70px;
   margin: 20px auto;
@@ -229,6 +234,5 @@
 }
 
 #contact #con-a span img {
-  min-width: 100%;
-  max-width: 100%;
+  width: 100%;
 }

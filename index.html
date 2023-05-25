@@ -57,23 +57,23 @@
 
         <div class="collapse navbar-collapse justify-content-end" id="collapsibleNavbar">
             <ul class="navbar-nav d-flex justify-content-between">
-              <li class="nav-item text-center ps-sm-2 pe-sm-2">
-                <a class="nav-link" href="./about.html">About</a>
+              <li class="nav-item text-center ps-sm-1 pe-sm-1">
+                <a class="nav-link header-a" href="./about.html">About</a>
               </li>
-              <li class="nav-item text-center ps-sm-2 pe-sm-2">
-                <a class="nav-link" href="#main-program">Program</a>
+              <li class="nav-item text-center ps-sm-1 pe-sm-1">
+                <a class="nav-link header-a" href="#main-program">Program</a>
               </li>
-              <li class="nav-item text-center ps-sm-2 pe-sm-2">
-                <a class="nav-link" href="#">Join</a>
+              <li class="nav-item text-center ps-sm-1 pe-sm-1">
+                <a class="nav-link header-a" href="#">Join</a>
               </li>
-              <li class="nav-item text-center ps-sm-2 pe-sm-2">
-                <a class="nav-link" href="#">Sponsor</a>
+              <li class="nav-item text-center ps-sm-1 pe-sm-1">
+                <a class="nav-link header-a" href="#">Sponsor</a>
               </li>
-              <li class="nav-item text-center ps-sm-2 pe-sm-2 d-sm-block d-md-none d-lg-block">
-                <a class="nav-link" href="#">News</a>
+              <li class="nav-item text-center ps-sm-1 pe-sm-1 d-sm-block d-md-none d-lg-block">
+                <a class="nav-link header-a" href="#">News</a>
               </li>
 
-              <div class="collapse navbar-collapse justify-content-end ms-2" id="CC-conference-btn-container" >
+              <div class="collapse navbar-collapse justify-content-end ms-1" id="CC-conference-btn-container" >
                 <button type="button" class="text-center border border-4 border-danger p-1 ps-2 pe-2 text-danger ">CC Campaign</button>
               </div>
             </ul>
@@ -87,21 +87,21 @@
   </header>
     
   <main>
-    <section id="headline" class="w-100 position-relative pb-3">
-      <img id="img1" width="100%" height="500px" src="./imgs/home.jpg" alt="home image">
-      <img id="img2" width="100%" height="500px" src="./imgs/home2.jpg" alt="home image">
+    <section id="headline" class="w-100 position-relative">
+      <img class="opacity-25" id="img1" width="100%" src="./imgs/home.jpg" alt="home image">
+      <img class="opacity-25" id="img2" width="100%" src="./imgs/home2.jpg" alt="home image">
 
       <div id="home-content" class="position-absolute top-0 h-100 d-flex flex-column justify-content-center">
-        <h3 id="home-content-h3" class="text-white">
+        <h3 id="home-content-h3" class="">
           EU Largest Tech Conference:
         </h3>
-        <h1 id="conference-title" class="text-white">
+        <h1 id="conference-title" class="">
           Advanced Battery and Electric vehicle </h1>
-        <p class="text-white">Delivering insight into key business and technical challenges.</p>
-        <h4 class="text-white">
+        <p id="home-p1">A joyful celebration believing in the value of openness and sharing, creating a positive change with people from over 80 countries.</p>
+        <h4 id="home-h4">
           28th & 29th June 2023<br>
-          <small class="text-white">Hall 3, NEC, Birmingham, UK</small>
         </h4>
+        <p id="home-p2">Hall 3, NEC, Birmingham, UK</p>
       </div>
 
     </section>
@@ -110,9 +110,11 @@
     class="w-100 text-center">
       <h2 class="text-white">Main Progarm</h2>
       <div class="line"></div>
-            
-      <div id="main-container" class="row g-2 row-cols-1 row-cols-md-2 row-cols-lg-3 row-cols-xl-5"></div>
-
+      
+      <div class="container-fluid d-block">
+        <div id="main-container" class="row row-cols-1 row-cols-md-2 row-cols-lg-3 row-cols-xl-5"></div>
+      </div>
+        
       <a id="anchor" class="" href="">See the whole progarm</a>
       
       <div class="w-100 ps-4 pe-4">
@@ -124,7 +126,7 @@
     <section id="featured-container" 
     class="w-100">
       <h2>Featured Speakers</h2>
-      <div class="line"></div>
+      <div id="fea-line"></div>
 
       <div id="featured-speakers"
       class="row g-2 row-cols-1 row-cols-md-2"
@@ -132,7 +134,7 @@
 
     </section>
 
-    <section id="social" class="w-100 bg-dark">
+    <section id="social" class="w-100 bg-dark d-none d-lg-block">
       <h2>Partner</h2>
       <div class="line"></div>
       
@@ -151,9 +153,9 @@
 
     </section>
 
-    <section id="contact" class="w-100 text-center">
+    <section id="contact" class="d-none d-lg-block w-100 text-center">
       <a id="con-a" href="#">
-        <span> <img src="./imgs/BatteryTech.png" alt="contact">
+        <span> <img src="./imgs/BatteryTech2.png" alt="contact">
         </span>
         </a> 
     </section>

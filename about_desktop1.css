@@ -1,41 +1,55 @@
 #top-bar {
-  padding: 0 100px;
+  padding: 0 200px;
 }
 
 #header {
-  padding: 5px 100px;
-}
-
-#headline {
-  background-size: 100px 100px;
+  padding: 5px 200px;
 }
 
 #headline #img1 {
   display: block;
+  height: 750px;
 }
 
 #headline #img2 {
   display: none;
+  height: 750px;
 }
 
 #headline #home-content {
-  padding: 50px 100px;
+  padding: 50px 200px;
 }
 
 #headline #home-content h1 {
-  font-size: 40px;
+  font-size: 50px;
+  padding: 0 100px;
 }
 
 #headline #home-content #head-h2 {
   font-size: 16px;
 }
 
-#headline2 {
-  padding: 50px 100px;
+#headline #home-content #head-des-p {
+  font-size: 14px;
+  padding: 30px 60px;
 }
 
-#headline2 h2 {
+#headline #home-content #head-a {
+  font-size: 17px;
+}
+
+#headline2 {
+  padding: 50px 200px;
+}
+
+#headline2 #head2-h2 {
   font-size: 30px;
+  padding: 0 100px;
+}
+
+#headline2 #head2-p1,
+#headline2 #head2-p2 {
+  padding: 0 60px;
 }
 
 #headline2 img {
@@ -43,10 +57,10 @@
 }
 
 #past-conference {
-  padding: 74px 100px;
+  padding: 74px 200px;
 }
 
-#past-conference .line {
+#past-conference #past-line {
   border: 1px dashed #ee3d24;
   width: 50px;
   margin: 20px auto;
@@ -54,19 +68,11 @@
   margin-top: 20px;
 }
 
-#past-conference p {
-  margin-top: 10px;
-}
-
-#past-conference #video-container div iframe {
-  height: 300px;
-}
-
 #contact {
-  background: #2e2e2e;
-  padding: 30px 100px;
+  background: #2c2c2c;
+  padding: 30px 200px;
 }
 
-#contact a {
-  margin-left: 0%;
+#contact #contact-img {
+  filter: invert(80%) brightness(168%) contrast(200%);
 }

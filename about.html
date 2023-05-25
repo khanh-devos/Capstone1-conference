@@ -58,23 +58,23 @@
 
         <div class="collapse navbar-collapse justify-content-end" id="collapsibleNavbar">
             <ul class="navbar-nav d-flex justify-content-between">
-              <li class="nav-item text-center ps-sm-2 pe-sm-2">
-                <a class="nav-link" href="#">About</a>
+              <li class="nav-item text-center ps-sm-1 pe-sm-1">
+                <a class="nav-link header-a" href="#">About</a>
               </li>
-              <li class="nav-item text-center ps-sm-2 pe-sm-2">
-                <a class="nav-link" href="#">Program</a>
+              <li class="nav-item text-center ps-sm-1 pe-sm-1">
+                <a class="nav-link header-a" href="#">Program</a>
               </li>
-              <li class="nav-item text-center ps-sm-2 pe-sm-2">
-                <a class="nav-link" href="#">Join</a>
+              <li class="nav-item text-center ps-sm-1 pe-sm-1">
+                <a class="nav-link header-a" href="#">Join</a>
               </li>
-              <li class="nav-item text-center ps-sm-2 pe-sm-2">
-                <a class="nav-link" href="#">Sponsor</a>
+              <li class="nav-item text-center ps-sm-1 pe-sm-1">
+                <a class="nav-link header-a" href="#">Sponsor</a>
               </li>
-              <li class="nav-item text-center ps-sm-2 pe-sm-2 d-sm-block d-md-none d-lg-block">
-                <a class="nav-link" href="#">News</a>
+              <li class="nav-item text-center ps-sm-1 pe-sm-1 d-sm-block d-md-none d-lg-block">
+                <a class="nav-link header-a" href="#">News</a>
               </li>
 
-              <div class="collapse navbar-collapse justify-content-end ms-2" id="CC-conference-btn-container" >
+              <div class="collapse navbar-collapse justify-content-end ms-1" id="CC-conference-btn-container" >
                 <button type="button" class="text-center border border-4 border-danger p-1 ps-2 pe-2 text-danger ">CC Campaign</button>
               </div>
             </ul>
@@ -89,33 +89,34 @@
     
   <main>
     <section id="headline" class="w-100 position-relative">
-      <img id="img1" width="100%" height="500px" src="./imgs/about.jpg" alt="home image"
+      <img id="img1" class="opacity-25" width="100%" src="./imgs/about.jpg" alt="home image"
       >
-      <img id="img2" width="100%" height="500px" src="./imgs/about2.jpg" alt="home image"
+      <img id="img2" class="opacity-25" width="100%" src="./imgs/about2.jpg" alt="home image"
       >
       <div id="home-content" class="position-absolute top-0 h-100 d-flex flex-column justify-content-center align-items-center">
-        <h3 class="text-white d-md-none">
+        <h3 class="d-md-none">
             EU Largest Tech Conference:
         </h3>
 
-        <h1 id="conference-title" class="text-white text-center">
+        <h1 id="conference-title" class="text-center">
             Visit The Electric & Hybrid <br> 
             Vehicle Technology Expo Europe:
         </h1>
         
         <div class="line d-none d-lg-block"></div>
         
-        <p class="text-white text-center d-none d-lg-block">Explore topics in detail with an interactive learning experience on core subject matters in advanced batteries and electric & hybrid vehicles.
-        Explore topics in detail with an interactive learning experience on core subject matters in advanced batteries and electric & hybrid vehicles. <br>
+        <p id="head-des-p" class="text-center d-none d-lg-block">Explore topics in detail with an interactive learning experience on core subject matters in advanced batteries and electric & hybrid vehicles.<br>
+        Explore topics in detail with an interactive learning experience on core subject matters in advanced batteries and electric & hybrid vehicles. 
+        Explore topics in detail with an interactive learning experience on core subject matters <br> in advanced batteries and electric & hybrid vehicles.
         Explore topics in detail with an interactive learning experience on core subject matters in advanced batteries and electric & hybrid vehicles.    
         </p>    
-        <p class="text-white text-center">Meet battery manufacturers, suppliers, engineers, thought leaders and decision-makers for a conference and battery tech expo focused on the latest developments in the advanced battery and automotive industries.</p>
+        <p id="head-mob-p" class="text-center d-md-none">Meet battery manufacturers, suppliers, engineers, thought leaders and decision-makers for a conference and battery tech expo focused on the latest developments in the advanced battery and automotive industries.</p>
 
-        <h2 id="head-h2" class="text-white text-center">
+        <h2 id="head-h2" class="text-center">
             Please contact us per Email for nay further questions<br>
         </h2>
             
-        <a href="" class="text-white">#EVTechExpo
+        <a id="head-a" href="" class="">#EVTechExpo
           <img class="p-1 d-none d-lg-inline-block"
             src="./imgs/icons/ArrowLeftToRight.svg" alt="arrow left to right" />
         </a>
@@ -131,7 +132,7 @@
         <h2 id="head2-h2">Join Peers at the Advanced Battery and H/EV Technology Community</h2>
         <div id="head2-line"></div>
 
-        <p id="head2-p1" class="d-none d-lg-block m-0">Join more than 770+ suppliers to showcase products representing the entire supply chain. This is the only trade fair where you can connect with over 10,000+ attendees in 3 days.This is the only trade fair where you can connect with over 10,000+ attendees in 3 days.</p>
+        <p id="head2-p1" class="d-none d-lg-block m-0">Join more than 770+ suppliers to showcase products representing the entire supply chain. This is the only trade fair where you can connect with over 10,000+ attendees in 3 days.This is the only trade fair where you can connect with over 10,000+ attendees in 3 days from over 80 countries.</p>
         <p id="head2-p2" class="m-0 mb-5">Join more than 770+ suppliers to showcase products representing the entire supply chain. </p>
 
         <img width="80%" src="./imgs/electric-battery-logo2.png" alt="logo">  
@@ -142,19 +143,30 @@
 
     <section id="past-conference" 
     class="w-100 text-center">
-      <h5><b>See the past Event Summits</b></h5>
+      <h2 id="past-h2">See the past Event Summits</h2>
       <div id="past-line"></div>
       <p id="past-p" >have a look at EU's most important event in batteries and EV tech industries.</p>
 
       <div id="video-container" class="row row-cols-1 row-cols-md-2 justify-content-between">
-        <div class="col">
-          <iframe width="100%" height="100%" src="https://www.youtube.com/embed/WhBTyulrktc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen
-          ></iframe>
-        </div>
+        <a class="col d-flex" href="">
+          <span id="a1" class="flex-grow-1 position-relative">
+            
+            <span id="a1-span" class="w-100 h-100 position-absolute d-flex flex-column justify-content-center">
+              <h5 id="a1-sp-h5" class="text-white">2022</h5>
+              <p id="a1-sp-p" class="text-white">Battery show Europe 2022</p>
+            </span>
+          </span>
+        </a>
 
-        <div class="col">
-          <iframe width="100%" height="100%" src="https://www.youtube.com/embed/L4bwJAt9iC8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-        </div>
+        <a class="col d-flex" href="">
+          <span id="a2" class="flex-grow-1 position-relative">
+            
+            <span id="a2-span" class="w-100 h-100 position-absolute d-flex flex-column justify-content-center">
+              <h5 id="a2-sp-h5" class="text-white">2021</h5>
+              <p id="a2-sp-p" class="text-white">Battery show Europe 2021</p>
+            </span>
+          </span>
+        </a>
       </div>
 
     </section>
@@ -179,8 +191,9 @@
     </section>
 
     <section id="contact" class="w-100 text-center">
-      <a id="con-a" href="#">
-        <span> <img src="./imgs/BatteryTech.png" alt="contact">
+      <a id="con-a" class="d-flex" href="#">
+        <span class="flex-grow-1"> 
+          <img id="contact-img" width="100%" src="./imgs/BatteryTech2.png" alt="contact">
         </span>
         </a> 
     </section>
