@@ -8,12 +8,12 @@
 
 #headline #img1 {
   display: block;
-  height: 750px;
+  height: 770px;
 }
 
 #headline #img2 {
   display: none;
-  height: 750px;
+  height: 770px;
 }
 
 #headline #home-content {
@@ -21,7 +21,7 @@
 }
 
 #headline #home-content h1 {
-  font-size: 70px;
+  font-size: 65px;
 }
 
 #headline #home-content h3 {
@@ -30,7 +30,7 @@
 
 #headline #home-content #home-p1 {
   font-size: 25px;
-  margin: 80px 0;
+  margin: 70px 0;
 }
 
 #headline #home-content #home-h4 {

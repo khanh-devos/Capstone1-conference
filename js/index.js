@@ -117,7 +117,7 @@ const showFeature = () => {
   const container = document.querySelector('#featured-speakers');
 
   const cards = speakers.map((item, i) => `
-    <section class="${i > 1 ? 'd-none' : ''} d-lg-block">
+    <section class="${i > 1 ? 'd-none' : ''} d-md-block">
       <div class="rol text-white 
       d-flex flex-row feature-window">
       <div class='feature-bg'>
