@@ -1,8 +1,8 @@
 node_modules/
 package-lock.json
-package.json
 pseudo-code.txt
 
+css/
 index1.scss
 index1.css.map
 desktop1.scss

@@ -1,9 +1,21 @@
+:root {
+  --padding1: 200px;
+
+  @media screen and (max-width: 1100px) {
+    --padding1: 100px;
+  }
+
+  @media screen and (max-width: 900px) {
+    --padding1: 50px;
+  }
+}
+
 #top-bar {
-  padding: 0 200px;
+  padding: 0 var(--padding1);
 }
 
 #header {
-  padding: 5px 200px;
+  padding: 5px var(--padding1);
 }
 
 #headline #img1 {
@@ -17,7 +29,7 @@
 }
 
 #headline #home-content {
-  padding: 50px 200px;
+  padding: 50px var(--padding1);
 }
 
 #headline #home-content h1 {
@@ -42,7 +54,7 @@
 }
 
 #main-program {
-  padding: 70px 200px;
+  padding: 70px var(--padding1);
 }
 
 #main-program #main-container #main-window {
@@ -74,7 +86,7 @@
 }
 
 #featured-container {
-  padding: 40px 200px;
+  padding: 40px var(--padding1);
 }
 
 #featured-container h2 {
@@ -98,7 +110,7 @@
 }
 
 #social {
-  padding: 50px 200px;
+  padding: 50px var(--padding1);
 }
 
 #social div #soc-a img {
@@ -106,5 +118,5 @@
 }
 
 #contact {
-  padding: 30px 200px;
+  padding: 30px var(--padding1);
 }
