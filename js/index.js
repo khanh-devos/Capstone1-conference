@@ -94,7 +94,7 @@ const showMoreBtn = () => {
   const container = document.querySelector('#featured-speakers');
 
   container.childNodes.forEach((item, i) => {
-    if (i > 3 && item.tagName === 'SECTION') {
+    if (i > 1 && item.tagName === 'SECTION') {
       if (item.classList) {
         item.classList.toggle('d-none');
       }
